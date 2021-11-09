@@ -1,4 +1,4 @@
-module github.com/flickr/sitecode-akita-plugin
+module github.com/akitasoftware/plugin-flickr
 
 go 1.16
 
