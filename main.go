@@ -15,7 +15,7 @@
 //
 // 4) Flickr's NSID account IDs will be detected as an Akita custom format.
 //
-package main
+package plugin_flickr
 
 import (
 	"github.com/akitasoftware/akita-cli/plugin"
