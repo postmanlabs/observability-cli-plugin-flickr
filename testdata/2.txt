@@ -1,0 +1,1390 @@
+method {
+  id {
+    api_type: HTTP_REST
+  }
+  args {
+    key: "0GyZtlPFOjk="
+    value {
+      primitive {
+        int64_value {
+          value: -7992771463503121509
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Flickr-Cloudfront"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "2lzlIlWTL58="
+    value {
+      primitive {
+        string_value {
+          value: "NhDkZfdMz0c8upvTcmq7F7HdL44d8P03p0bfL5FiQ30="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Connection"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "8Ee_oQdvlh0="
+    value {
+      primitive {
+        string_value {
+          value: "7g_BZz6poX9YbAEKMzgMmWZt95sPG7KA3la_yXfs1Fk="
+        }
+        formats {
+          key: "country_code_2"
+          value: true
+        }
+        format_kind: "country"
+      }
+      meta {
+        http {
+          header {
+            key: "Cloudfront-Viewer-Country"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "AAMQmM-6yxM="
+    value {
+      primitive {
+        bool_value {
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Cloudfront-Is-Smarttv-Viewer"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "CBcNggvTA6A="
+    value {
+      primitive {
+        string_value {
+          value: "fqwpKvie9Hfxy-zvj8aJO03wvkCO3fW7OpNNEM9P97I="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Via"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "JLX337lVmHU="
+    value {
+      primitive {
+        string_value {
+          value: "xh7k7LPj7DUExZBKpFjrQQpx8f2cijwzQowRAJUhYsE="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Amz-Cf-Id"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "LWr9u3gz7Z4="
+    value {
+      primitive {
+        string_value {
+          value: "78u2HLf1JeXuXFWA4FQ31uzt7hPLb5yZf8kezgbge-8="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "User-Agent"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "MT2SWjkTUEo="
+    value {
+      primitive {
+        bool_value {
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Cloudfront-Is-Tablet-Viewer"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "QpFoTrroE0s="
+    value {
+      primitive {
+        string_value {
+          value: "plAbfwiGtDUTjSUGyGcs5jj4BSkoRdfldWDZNMxp8mI="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Cloudfront-Forwarded-Proto"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "R7ek_5QkVe8="
+    value {
+      primitive {
+        int64_value {
+          value: -3306824729365751965
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Forwarded-Port"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "RJGQycB_DIY="
+    value {
+      primitive {
+        bool_value {
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Cloudfront-Is-Mobile-Viewer"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "WxF8Q9floM0="
+    value {
+      primitive {
+        string_value {
+          value: "fM-KgwdP3Qicn0SpiissEvf4Q-3Id3gQuDCzA0DZ22c="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Amzn-Trace-Id"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "XHkpkhJ2kA4="
+    value {
+      primitive {
+        int64_value {
+          value: 7561002753991273107
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Content-Length"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "cMtbhyvC0oA="
+    value {
+      primitive {
+        string_value {
+          value: "plAbfwiGtDUTjSUGyGcs5jj4BSkoRdfldWDZNMxp8mI="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Forwarded-Proto"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "eDhVqLUWpxk="
+    value {
+      primitive {
+        bool_value {
+          value: true
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Cloudfront-Is-Desktop-Viewer"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "h9izWKXxdQE="
+    value {
+      primitive {
+        string_value {
+          value: "74kHTyTjP9fhwxZ3NcTV6KYE8bHM1Dtj2kAkaV6PTi0="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Accept"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "kz9DbdQYIHs="
+    value {
+      struct {
+        fields {
+          key: "api_key"
+          value {
+            primitive {
+              string_value {
+                value: "j8QiAOvAovwUmNV1qIxUP1afUYGhe64SjzJ-m2OeAuA="
+              }
+              formats {
+                key: "uuid"
+                value: true
+              }
+              format_kind: "unique_id"
+            }
+            meta {
+              http {
+                body {
+                  content_type: TEXT_PLAIN
+                }
+              }
+            }
+          }
+        }
+        fields {
+          key: "format"
+          value {
+            primitive {
+              string_value {
+                value: "samHwNznjWP_BrH6z1OS21QY-XFCtYEPM-yfd7WHLpo="
+              }
+            }
+            meta {
+              http {
+                body {
+                  content_type: TEXT_PLAIN
+                }
+              }
+            }
+          }
+        }
+        fields {
+          key: "method"
+          value {
+            primitive {
+              string_value {
+                value: "my_method"
+              }
+            }
+            meta {
+              http {
+                body {
+                  content_type: TEXT_PLAIN
+                }
+              }
+            }
+          }
+        }
+        fields {
+          key: "nojsoncallback"
+          value {
+            primitive {
+              string_value {
+                value: "_GKNhEux5r9Gwz7XpyJDuZcl1leEdyp9oPnA9H0u6FQ="
+              }
+            }
+            meta {
+              http {
+                body {
+                  content_type: TEXT_PLAIN
+                }
+              }
+            }
+          }
+        }
+        fields {
+          key: "photo_id"
+          value {
+            primitive {
+              int64_value {
+                value: 5429147678513839035
+              }
+            }
+            meta {
+              http {
+                body {
+                  content_type: TEXT_PLAIN
+                }
+              }
+            }
+          }
+        }
+      }
+      meta {
+        http {
+          multipart {
+            type: "form-data"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "mn8yZZ9LetU="
+    value {
+      primitive {
+        string_value {
+          value: "U53mfnn3c5UEHYe44tp1ycJcqd7AAbCGNCE6jY64tUs="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Forwarded-For"
+          }
+        }
+      }
+    }
+  }
+  responses {
+    key: "0IF0Yxy0az0="
+    value {
+      primitive {
+        string_value {
+          value: "XBNUNbEKYE1m5zuwNuQUmRS17BX4YqDU7jI8GehQf_o="
+        }
+        formats {
+          key: "rfc_1123"
+          value: true
+        }
+        formats {
+          key: "rfc_2822"
+          value: true
+        }
+        format_kind: "datetime"
+      }
+      meta {
+        http {
+          header {
+            key: "Date"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "0WeCbosDEH4="
+    value {
+      primitive {
+        int64_value {
+          value: 3439493464262292743
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Content-Length"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "5SM8PTyhYRc="
+    value {
+      primitive {
+        string_value {
+          value: "SiEOYviishiQ1IKdFhElNkSRZUF0PIQDSaFeg2JxtZw="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Frame-Options"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "P25InUm1_w4="
+    value {
+      primitive {
+        string_value {
+          value: "u3O-JJdAHpn31iT_l9vMKPcxAqfkD35dYao3uI3BYr0="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Content-Type-Options"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "T4iTPy1Daf8="
+    value {
+      struct {
+        fields {
+          key: "sizes"
+          value {
+            struct {
+              fields {
+                key: "canblog"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "candownload"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7992771463503121509
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "canprint"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "size"
+                value {
+                  list {
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 4424674504013139122
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "3LhxRHDnrVR8jiPH1inm4zpfJkPnN2pU3BarLI9HFQ8="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "__Vzg1NkZoI93S9ocvb9FbN6J-OFIhPuGTSkHGLEa0M="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "D5GwKFG--zkXQj-Af3Yifecz-7fiVXFB8f7vqjvVW_Y="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 4424674504013139122
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -4994905133670947163
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "fWhPnj8YY8MSHCJmqCsUbA9m9kOcI67V8DJKZLanrng="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "e6FfaXto0pJa7zbLjDBtF3DQS0cMizP5Rtk9Y7-za-Y="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "VAGIDmko1mCxZG4pN6GiFjR6_tHTVmwO043Ao6nMgv4="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -4994905133670947163
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -7061842748287973771
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "eD27XikcwkXsN5AFUAz9G0h8doAntjPuK562F3SIpqo="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "FyzgVrL7onh62y9edPkYo4cXJmhwIjhxsbWt-kG-2f4="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "kQZD9KVYCBdzOXuv3SG5hkRvqAHNhg0zXfVPbRHa0YY="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -4617388246211463584
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 2022440942200338477
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "p_-jbWKmNo5E6fR6uRmKyv0oL1iUt8CMQjuNsxXHNpE="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "hDiW6FnW1MXZbWyPWD3KmLIMwlGkOg8jvS0RSeMnBOc="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "be3EmsVogcm88Hm5qWXtio8FvYfK7uadZH6w0lAJ0Ik="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 7538557554341092972
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 6837094392945678008
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "cpPr1YqJhEECtTkB7NIDd9cf9M3nzG9XABDA2_hujtU="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "2WCmUgR5dDkPmBeDJyvk34NFPAws_nU1Rh0m81piEXY="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "7vEOevgJ2l_H-B5fLLeMFRe7ZPwknnMnfUZs9PoKalo="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 6317846615135532330
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -6979133713474292601
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "9k7ur-p0ZMgmnBYDtdA_jS3Y47vPhP4OmzHen4wOkWk="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "0QLGZkOxLp_J5mrvLiu7AQRPv3Qje-e1JsBMShi4R-o="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "tdpZnGao8FqzYpre7-0X6bKy6cTR0UdQj1StmruttPU="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 7787721367183067342
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 3083336582491228019
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "4eSodunu4JO_r_5wW8JyxG1918Jy7Z16-4PtmiFE6Gg="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "4PF2_3SCf2b8YiCi-GX0c_t1zJ9tQNJIsx-Hy2MXXi4="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "1TpaqftdolerKvoYbc4MaxUipSLcYi6tfDbiESKHpzw="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 1625096661771538192
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -6498646644036257349
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "ebid0yzox8G2OUVoHD3_PxDjAwo1QyU4G5UH18YQF-E="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "Asj8sMdM_BV3zMBmEH6xm-bM2k9Ze4v0fXgoUdpr2ec="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "3m772cnXbAX7F8Zl9z84I9W04E4kDGMsQnUZOVf44iQ="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 4360892165407631070
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -3851173613407891681
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "07LSdQEwZXvFDVYBPoE94tJG2aMH1blzVapJ4zqDCmo="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "LCJc62YoYuB4Y5lqRZM4LFan1lp2Ru3EI7tiIWY1YnE="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "Z_WDKU-cMlk6QY3oyLkM5RElFfng_kOpoOHom5XAb9g="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -6041314740479827196
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 6602855203429322507
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "YqHokpXKmU4Y4Y-hDcNXq9fvbcrFI8dtrM_hCG7bNTw="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "o6h6YJE6PHQQqlXDZDPHcoEM1fVDPQGfgU3twhAsj38="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "Ndiw69AxD_Sqc7WHXm6gyBqblPrsmzeV7kHFPzn6hF8="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 1390752181507716590
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    elems {
+                      struct {
+                        fields {
+                          key: "height"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: -6041314740479827196
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "label"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "qAF00_opgNO7PZwkVdT6X54ep6oDkQvpwmcQEovGkTs="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "media"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "UR-_pICaXrtiB8YQawWFYRFA3ICMNM020bp9i8dk-I4="
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          key: "source"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "v6axfEEhiBb0JbZEkLPNIOlIvcvOP3uzt9U8GllcVO0="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "url"
+                          value {
+                            primitive {
+                              string_value {
+                                value: "om811EF4yywcRn1fglEz3ryYU_iLZE4IchTjmpJhwF0="
+                              }
+                              formats {
+                                key: "url"
+                                value: true
+                              }
+                              format_kind: "uri"
+                            }
+                          }
+                        }
+                        fields {
+                          key: "width"
+                          value {
+                            primitive {
+                              int64_value {
+                                value: 1822447979911534687
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        fields {
+          key: "stat"
+          value {
+            primitive {
+              string_value {
+                value: "xVjXqwbTxasHYm14Gojb18eVmpEQey2z5S_6dF9bduE="
+              }
+            }
+          }
+        }
+      }
+      meta {
+        http {
+          body {
+            content_type: JSON
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "wH6dAYWhvHU="
+    value {
+      primitive {
+        string_value {
+          value: "hbkoNDQ_TJMrt2Ob1MjVDdadvvIwzDp2c2tU5WIVlTs="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Server"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  meta {
+    http {
+      method: "POST"
+      path_template: "/services/rest"
+      host: "api.flickr.com"
+      processing_latency: 248.197
+    }
+  }
+}
