@@ -2,11 +2,11 @@
 //
 // Since Flickr's REST API does not yet follow every modern REST convention,
 // this plugin serves to bridge the gap between old and new by translating
-// captured http requests into a format that is more readily consumed by 
+// captured http requests into a format that is more readily consumed by
 // Akita.
 //
 // 1) Flickr's API `method` query string param gets mapped into a pseudo path.
-// 
+//
 // 2) Flickr's API Key `api_key` query string param gets mapped into a pseudo
 //    Authorization Basic.
 //
@@ -19,16 +19,16 @@ package plugin_flickr
 
 import (
 	"github.com/akitasoftware/akita-cli/plugin"
-	"github.com/akitasoftware/akita-libs/spec_util"
-	"github.com/akitasoftware/akita-libs/spec_util/ir_hash"
 	"github.com/akitasoftware/akita-cli/printer"
 	pb "github.com/akitasoftware/akita-ir/go/api_spec"
+	"github.com/akitasoftware/akita-libs/spec_util"
+	"github.com/akitasoftware/akita-libs/spec_util/ir_hash"
 
-	"fmt"
 	"errors"
+	"fmt"
 
-	"strings"
 	"regexp"
+	"strings"
 )
 
 type FlickrAkitaPlugin struct{}
@@ -81,6 +81,24 @@ func PopQueryStringParamByName(method *pb.Method, name string) *pb.String {
 	return qsp
 }
 
+func PopMultipartElementByName(s *pb.Struct, name string) *pb.String {
+	if s == nil {
+		return nil
+	}
+
+	data, present := s.Fields[name]
+	if !present {
+		return nil
+	}
+
+	if qsp := DataToString(data); qsp != nil {
+		delete(s.Fields, name)
+		return qsp
+	}
+
+	return nil
+}
+
 func PopBodyElementByName(method *pb.Method, name string) *pb.String {
 	var m *pb.DataMeta_Http
 	var body *pb.Struct
@@ -90,6 +108,13 @@ func PopBodyElementByName(method *pb.Method, name string) *pb.String {
 		// Ignore if not DataMeta_Http
 		if m, ok = data.GetMeta().GetMeta().(*pb.DataMeta_Http); !ok {
 			continue
+		}
+
+		// Check if a multipart form body, check each part if so.
+		// There should not be additional bodies if so, so we can just
+		// terminate the search early.
+		if mp := m.Http.GetMultipart(); mp != nil {
+			return PopMultipartElementByName(data.GetStruct(), name)
 		}
 
 		// Ignore if not HTTPMeta_Body
@@ -187,7 +212,7 @@ func CreateAuthHeader(param *pb.String) *pb.Data {
 		Meta: &pb.DataMeta{
 			Meta: &pb.DataMeta_Http{
 				Http: &pb.HTTPMeta{
-					Location:     &pb.HTTPMeta_Auth{Auth: &pb.HTTPAuth{Type: pb.HTTPAuth_BEARER}},
+					Location: &pb.HTTPMeta_Auth{Auth: &pb.HTTPAuth{Type: pb.HTTPAuth_BEARER}},
 				},
 			},
 		},
@@ -223,7 +248,7 @@ func FixHTTPAuthorization(method *pb.Method) error {
 	method.Args[k] = authData
 
 	printer.Debugf("Flickr Auth Data: %+v\n", authData)
-	
+
 	return nil
 }
 
@@ -300,12 +325,21 @@ func FixHTTPResponseCode(method *pb.Method) error {
 	return nil
 }
 
+// Determine whether the transformation should be applied; for now this is a hostname check.
+func (fp FlickrAkitaPlugin) IsFlickrAPICall(meta *pb.HTTPMethodMeta) bool {
+	switch {
+	case strings.Contains(meta.Host, "api.flickr.com"):
+		return true
+	default:
+		return false
+	}
+}
+
 /*
 	Refactor notes:
 
 	* Make a struct to store intended rewrites
 	* split out PathTemplate changes, etc into bound methods on that struct
-	* separate out the logic to check whether this is a Flickr REST call or not
 	* try to get it all in one pass
 
 */
@@ -317,13 +351,11 @@ func (fp FlickrAkitaPlugin) Transform(method *pb.Method) error {
 	}
 
 	var meta *pb.HTTPMethodMeta
-
 	if meta = spec_util.HTTPMetaFromMethod(method); meta == nil {
 		return nil
 	}
 
-	// For now there's no easy way to filter for only api.flickr.com hosts.
-	if !strings.Contains(meta.Host, "api.flickr.com") {
+	if !fp.IsFlickrAPICall(meta) {
 		return errors.New(fmt.Sprintf("Discarding request not to Flickr API: %s\n", meta.Host))
 	}
 

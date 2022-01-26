@@ -1,0 +1,1435 @@
+method {
+  id {
+    api_type: HTTP_REST
+  }
+  args {
+    key: "2lzlIlWTL58="
+    value {
+      primitive {
+        string_value {
+          value: "NhDkZfdMz0c8upvTcmq7F7HdL44d8P03p0bfL5FiQ30="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Connection"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "3gEfE46ypo0="
+    value {
+      primitive {
+        string_value {
+          value: "samHwNznjWP_BrH6z1OS21QY-XFCtYEPM-yfd7WHLpo="
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "format"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "5jiKmZOaeXE="
+    value {
+      primitive {
+        int64_value {
+          value: -7992771463503121509
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "datecreate"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "CBcNggvTA6A="
+    value {
+      primitive {
+        string_value {
+          value: "fqwpKvie9Hfxy-zvj8aJO03wvkCO3fW7OpNNEM9P97I="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Via"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "Duwyd6hVfJQ="
+    value {
+      primitive {
+        string_value {
+          value: "JIxaVJEKTJsGbL8r8ZqAy1h9cDwivLI4Vrh0pZJpeuI="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "User-Agent"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "K0RdNhK0TJw="
+    value {
+      primitive {
+        string_value {
+          value: "Opa3kPHAN0_-v_WmNMJwDy1VloON104Ml_PvQAJLBwQ="
+        }
+        formats {
+          key: "rfc_5322_email"
+          value: true
+        }
+        format_kind: "email"
+      }
+      meta {
+        http {
+          header {
+            key: "X-Hermes-Nsid"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "N_syxlZcQTE="
+    value {
+      primitive {
+        string_value {
+          value: "Opa3kPHAN0_-v_WmNMJwDy1VloON104Ml_PvQAJLBwQ="
+        }
+        formats {
+          key: "rfc_5322_email"
+          value: true
+        }
+        format_kind: "email"
+      }
+      meta {
+        http {
+          query {
+            key: "user_id"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "R7ek_5QkVe8="
+    value {
+      primitive {
+        int64_value {
+          value: -3306824729365751965
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Forwarded-Port"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "TKDqtz_UMes="
+    value {
+      primitive {
+        string_value {
+          value: "5uJ9BCjYOrLOg-oSak8TTZbZkqBDzXBMzlQQaf80Wn0="
+        }
+        formats {
+          key: "rfc_5322_email"
+          value: true
+        }
+        format_kind: "email"
+      }
+      meta {
+        http {
+          header {
+            key: "X-Hermes"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "bXckNfIpkdo="
+    value {
+      primitive {
+        int64_value {
+          value: -7992771463503121509
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "hermesServer"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "cMtbhyvC0oA="
+    value {
+      primitive {
+        string_value {
+          value: "plAbfwiGtDUTjSUGyGcs5jj4BSkoRdfldWDZNMxp8mI="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Forwarded-Proto"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "geBRAnGHiY8="
+    value {
+      primitive {
+        string_value {
+          value: "KvoUFDqdqZPt6PoR5n9olQzvt-H3Dh-8kGwKuhagOXg="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Amzn-Trace-Id"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "jVSQuh6dV5Y="
+    value {
+      primitive {
+        string_value {
+          value: "my_method"
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "method"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "neJ73VVpmfQ="
+    value {
+      primitive {
+        int64_value {
+          value: -7992771463503121509
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "hermes"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "rl6r8OW-0Po="
+    value {
+      primitive {
+        int64_value {
+          value: -7992771463503121509
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "nojsoncallback"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "tTKBXJvQu9U="
+    value {
+      primitive {
+        string_value {
+          value: "XQayQ-VlHRuNwTclY8JnkNYADgpzK6pBiTam7Ck89AY="
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "extras"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "v1MFIOV06dw="
+    value {
+      primitive {
+        string_value {
+          value: "pnHp2d2hlKN9fcO7qoLyOBI3_sFe7llJsl_zrMTIMtc="
+        }
+        formats {
+          key: "uuid"
+          value: true
+        }
+        format_kind: "unique_id"
+      }
+      meta {
+        http {
+          header {
+            key: "X-Request-Id"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "vzb319kM9t4="
+    value {
+      primitive {
+        string_value {
+          value: "94j6sivOArvyH8eZr5Cz2JWjPfIR2xV1Z7aE_-dEu9o="
+        }
+        formats {
+          key: "uuid"
+          value: true
+        }
+        format_kind: "unique_id"
+      }
+      meta {
+        http {
+          query {
+            key: "api_key"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "xUgaBXEvIlY="
+    value {
+      primitive {
+        int64_value {
+          value: -7992771463503121509
+        }
+      }
+      meta {
+        http {
+          query {
+            key: "storage"
+          }
+        }
+      }
+    }
+  }
+  args {
+    key: "y0iMMkXbTC8="
+    value {
+      primitive {
+        string_value {
+          value: "E5fLSta0UQhv0fqKSN7daOpT9WZboxuK7BGBMfbtKjU="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Forwarded-For"
+          }
+        }
+      }
+    }
+  }
+  responses {
+    key: "5SM8PTyhYRc="
+    value {
+      primitive {
+        string_value {
+          value: "SiEOYviishiQ1IKdFhElNkSRZUF0PIQDSaFeg2JxtZw="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Frame-Options"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "DDsPzMHSFhE="
+    value {
+      primitive {
+        int64_value {
+          value: 8208525846160513762
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Content-Length"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "P25InUm1_w4="
+    value {
+      primitive {
+        string_value {
+          value: "u3O-JJdAHpn31iT_l9vMKPcxAqfkD35dYao3uI3BYr0="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "X-Content-Type-Options"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "Qh-vh62c8kg="
+    value {
+      primitive {
+        string_value {
+          value: "Opa3kPHAN0_-v_WmNMJwDy1VloON104Ml_PvQAJLBwQ="
+        }
+        formats {
+          key: "rfc_5322_email"
+          value: true
+        }
+        format_kind: "email"
+      }
+      meta {
+        http {
+          header {
+            key: "X-Account-Nsid"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "VLbpxwjKlwU="
+    value {
+      struct {
+        fields {
+          key: "person"
+          value {
+            struct {
+              fields {
+                key: "all_rights_reserved_photos_count"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "classic_user_id"
+                value {
+                  primitive {
+                    string_value {
+                      value: "0au824ADA3iQZ3g7bb6J9SvNl86IRuI0xSZgiVwVBfQ="
+                    }
+                    formats {
+                      key: "integer_id"
+                      value: true
+                    }
+                    format_kind: "unique_id"
+                  }
+                }
+              }
+              fields {
+                key: "contacts_cache_url"
+                value {
+                  primitive {
+                    string_value {
+                      value: "B-c4QBlhknMkgn425qeIGbWctThIFKExT-Jw9o_ttGY="
+                    }
+                    formats {
+                      key: "rfc_5322_email"
+                      value: true
+                    }
+                    format_kind: "email"
+                  }
+                }
+              }
+              fields {
+                key: "corp_mail"
+                value {
+                  primitive {
+                    bool_value {
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "coverphoto_farm"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "coverphoto_server"
+                value {
+                  primitive {
+                    string_value {
+                      value: "BaDZ7M-NX3IYxakea-8Z1OhaJ7fI6o1cOlGaa-kXi2s="
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "coverphoto_url"
+                value {
+                  struct {
+                    fields {
+                      key: "h"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "rfTPd4T17S9SqzgdC_PoG9Z8kxXrQC9ZEzOKgWD2vp8="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "l"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "_e4lZ4oDSnKLv_BzSlvL-Lv50m0nHob6DWJWi_P1LN8="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "s"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "1YHkqklp3pwDBj-caV2n1Zp9D4xSd22vEf-HUH7bX8I="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "t"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "psgN0mlTWQW_7CzAlsMbWl4dgyYT9fX-AK94y_KXgQA="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "datecreate"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "SSgP2AJYQRLydx0O7C4QdMVhYTUhPb_VVOS_f9XynMM="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "description"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "RCNRhw0_qnKjy70x0X3w48S4gi_dIB8Eq5n0y3KQtCc="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "disable_keyboard_shortcuts"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          int64_value {
+                            value: -7992771463503121509
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "download_pref"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "email"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "AvRJcgZQWDLMgYpAxgVruDxL23arZRjCp4Zz6JNhGXA="
+                          }
+                          formats {
+                            key: "rfc_5322_email"
+                            value: true
+                          }
+                          format_kind: "email"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "expiring_partner"
+                value {
+                  primitive {
+                    bool_value {
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "group_memberships"
+                value {
+                  struct {
+                    fields {
+                      key: "admin"
+                      value {
+                        primitive {
+                          int64_value {
+                            value: -7857400098748643263
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "invited"
+                      value {
+                        primitive {
+                          int64_value {
+                            value: -8692645319364511438
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "member"
+                      value {
+                        primitive {
+                          int64_value {
+                            value: -6936338545807213823
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "moderator"
+                      value {
+                        primitive {
+                          int64_value {
+                            value: -7857400098748643263
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "has_adfree"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "has_free_educational_resources"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "has_free_standard_shipping"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "has_stats"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "iconfarm"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "iconserver"
+                value {
+                  primitive {
+                    string_value {
+                      value: "BaDZ7M-NX3IYxakea-8Z1OhaJ7fI6o1cOlGaa-kXi2s="
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "iconurls"
+                value {
+                  struct {
+                    fields {
+                      key: "default"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "1jdj26-ZbV28aA9-fsertSzwlXQHnm4cpINw4GyYiT8="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "large"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "UXHVmEYAtOc2ihAHsSCLlcBYxtTKESH6-QeWptRPVZw="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "medium"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "h05MAtyGslXKMylwchqqE0dXli-dlukF9l2Gaclbb3Q="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "retina"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "fZGER-PaKzPJXNf3yTMClyNOeerdWG07heUHGB_Kg5U="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "small"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "h-CpWPPviDhtNFZG2ZRjkZB0yKnxkoTZIJcXjioc3Jw="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "id"
+                value {
+                  primitive {
+                    string_value {
+                      value: "Opa3kPHAN0_-v_WmNMJwDy1VloON104Ml_PvQAJLBwQ="
+                    }
+                    formats {
+                      key: "rfc_5322_email"
+                      value: true
+                    }
+                    format_kind: "email"
+                  }
+                }
+              }
+              fields {
+                key: "is_ad_free"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "is_cognito_user"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7992771463503121509
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "is_deleted"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "is_minor"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "ispro"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "location"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "RCNRhw0_qnKjy70x0X3w48S4gi_dIB8Eq5n0y3KQtCc="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "mbox_sha1sum"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "lnmOxoNcbTgiiau_yrItSq7eJspke1SgeVKA5rMn_Qg="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "mobileurl"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "s7t9WxjrAmdiRfiV-Qv4P1FA3a5-tzOtJWK_CcYhhJU="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "nsid"
+                value {
+                  primitive {
+                    string_value {
+                      value: "Opa3kPHAN0_-v_WmNMJwDy1VloON104Ml_PvQAJLBwQ="
+                    }
+                    formats {
+                      key: "rfc_5322_email"
+                      value: true
+                    }
+                    format_kind: "email"
+                  }
+                }
+              }
+              fields {
+                key: "path_alias"
+                value {
+                  optional {
+                    none {
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "photos"
+                value {
+                  struct {
+                    fields {
+                      key: "count"
+                      value {
+                        struct {
+                          fields {
+                            key: "_content"
+                            value {
+                              primitive {
+                                int64_value {
+                                  value: -7857400098748643263
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "firstdate"
+                      value {
+                        struct {
+                          fields {
+                            key: "_content"
+                            value {
+                              optional {
+                                none {
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "firstdatetaken"
+                      value {
+                        struct {
+                          fields {
+                            key: "_content"
+                            value {
+                              optional {
+                                none {
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "views"
+                      value {
+                        struct {
+                          fields {
+                            key: "_content"
+                            value {
+                              primitive {
+                                string_value {
+                                  value: "H0mHRHIWVMO12nt0OxOCV8A_dpzIzi7QnsvS7gfvvgk="
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "photosurl"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "-Y-LPAiAYYTh6U_7Dab7idBPzIotDqGm-KGrA7qqHjo="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "profileurl"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "-Sjt7WjvTZZG7TMJWtOzDgr0iOA7Sub_OvnMKq70TSk="
+                          }
+                          formats {
+                            key: "url"
+                            value: true
+                          }
+                          format_kind: "uri"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "realname"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "RCNRhw0_qnKjy70x0X3w48S4gi_dIB8Eq5n0y3KQtCc="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "safe_search"
+                value {
+                  primitive {
+                    int64_value {
+                      value: 443171711517361065
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "storage"
+                value {
+                  struct {
+                    fields {
+                      key: "total"
+                      value {
+                        struct {
+                          fields {
+                            key: "_content"
+                            value {
+                              primitive {
+                                int64_value {
+                                  value: -1618039234718761460
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "used"
+                      value {
+                        struct {
+                          fields {
+                            key: "_content"
+                            value {
+                              primitive {
+                                string_value {
+                                  value: "BaDZ7M-NX3IYxakea-8Z1OhaJ7fI6o1cOlGaa-kXi2s="
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "unread_messages"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "vsTVdykeqrYsShP59t2K6s_M-EsOrv1Mt_LUMiPfQRE="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "upload_count"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -7857400098748643263
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "upload_limit"
+                value {
+                  primitive {
+                    int64_value {
+                      value: -8962367600170580717
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "upload_limit_status"
+                value {
+                  primitive {
+                    string_value {
+                      value: "mH1uE6qkhmAJYes0cvZg6fwKIV9R2XoW-TjY58oU3QQ="
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "user_secret"
+                value {
+                  primitive {
+                    string_value {
+                      value: "VHKJ-aub1nasmVj2VMcN7IWA4vV29YFUZ9zlPfyuc8o="
+                    }
+                    formats {
+                      key: "uuid"
+                      value: true
+                    }
+                    format_kind: "unique_id"
+                  }
+                }
+              }
+              fields {
+                key: "username"
+                value {
+                  struct {
+                    fields {
+                      key: "_content"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "-QHyPpXYvuBAO7FR_INrTqoLhx6VatPvPZgk8LLNSpk="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "view_prefs"
+                value {
+                  struct {
+                    fields {
+                      key: "album_view_layout"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "qZb19Gg_3PA4wvxOt8poaBBGRauE2D9w7EcQmhmXERE="
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "galleries_view_layout_pref"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "04r8PbYTUwVK8lsLnoRjXVPAIaryKw5eTAdpvb4ed94="
+                          }
+                          formats {
+                            key: "iso_639_1"
+                            value: true
+                          }
+                          format_kind: "language"
+                        }
+                      }
+                    }
+                    fields {
+                      key: "photostream_view_as_pref"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "jShoYYGaF0f49zpQwvtYc-Djiwh8rw7LfH_Qv6SDSSE="
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "photostream_view_order_pref"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "2cIaYu9vPSJerv9qW6LUvWWIULhX1zWLR66JHb6w6K8="
+                          }
+                        }
+                      }
+                    }
+                    fields {
+                      key: "unified_search_view_pref"
+                      value {
+                        primitive {
+                          string_value {
+                            value: "A2mizMpx_KjyHUsEH4yP44VcvwmDCvJLXF6nzl5btiU="
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              fields {
+                key: "yintl"
+                value {
+                  primitive {
+                    string_value {
+                      value: "CjExOEC_TTt1AsBkRs8PXOzIPZfsKwLRZt5AfSs3kL8="
+                    }
+                    formats {
+                      key: "iso_639_1"
+                      value: true
+                    }
+                    format_kind: "language"
+                  }
+                }
+              }
+            }
+          }
+        }
+        fields {
+          key: "stat"
+          value {
+            primitive {
+              string_value {
+                value: "xVjXqwbTxasHYm14Gojb18eVmpEQey2z5S_6dF9bduE="
+              }
+            }
+          }
+        }
+      }
+      meta {
+        http {
+          body {
+            content_type: JSON
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "Yopcb7BBhOc="
+    value {
+      primitive {
+        string_value {
+          value: "bCYbQ3rVox_YBRaXEmZ-IsYdPkbH2uoP8428nU03dM4="
+        }
+        formats {
+          key: "rfc_1123"
+          value: true
+        }
+        formats {
+          key: "rfc_2822"
+          value: true
+        }
+        format_kind: "datetime"
+      }
+      meta {
+        http {
+          header {
+            key: "Date"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  responses {
+    key: "wH6dAYWhvHU="
+    value {
+      primitive {
+        string_value {
+          value: "hbkoNDQ_TJMrt2Ob1MjVDdadvvIwzDp2c2tU5WIVlTs="
+        }
+      }
+      meta {
+        http {
+          header {
+            key: "Server"
+          }
+          response_code: 200
+        }
+      }
+    }
+  }
+  meta {
+    http {
+      method: "GET"
+      path_template: "/services/rest"
+      host: "internal-api.flickr.com"
+      processing_latency: 122.632
+    }
+  }
+}
