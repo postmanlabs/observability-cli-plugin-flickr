@@ -1,3 +1,5 @@
-# plugin-flickr
+# Insights Agent plug-in module for Flickr
 
-Akita CLI plugin for translating Flickr API conventions to a more REST-like format
+A plug-in module for the [Postman Insights
+Agent](https://github.com/postmanlabs/postman-insights-agent) that translates
+Flickr API conventions to a more REST-like format.
