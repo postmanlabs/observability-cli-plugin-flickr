@@ -18,11 +18,11 @@
 package plugin_flickr
 
 import (
-	"github.com/akitasoftware/akita-cli/plugin"
-	"github.com/akitasoftware/akita-cli/printer"
 	pb "github.com/akitasoftware/akita-ir/go/api_spec"
 	"github.com/akitasoftware/akita-libs/spec_util"
 	"github.com/akitasoftware/akita-libs/spec_util/ir_hash"
+	"github.com/postmanlabs/postman-insights-agent/plugin"
+	"github.com/postmanlabs/postman-insights-agent/printer"
 
 	"errors"
 	"fmt"
